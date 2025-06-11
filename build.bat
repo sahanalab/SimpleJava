@@ -1,6 +1,6 @@
 @echo off
 echo Compiling...
-javac -d test test.java
+javac -d test1 test.java
 echo Running...
-java -cp test
+java -cp test1 test
 echo success
