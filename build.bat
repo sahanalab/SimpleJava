@@ -1,7 +1,6 @@
 @echo off
 echo Compiling...
-mkdir out
-javac -d out test.java
+javac -d test test.java
 echo Running...
-java -cp out test
+java -cp test
 echo success
